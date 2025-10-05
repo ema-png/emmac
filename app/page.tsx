@@ -1,15 +1,19 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
-      <h1 className="text-4xl font-bold text-blue-600 mb-6">
-        🚀 Welcome to My First Next.js + Tailwind Page!
+      <h1 className="text-4xl font-bold text-red-600 mb-6">
+        ✧˖°. Emma's first Next.js & Tailwind Page ⋆ ˚｡⋆୨୧˚
       </h1>
-      <p className="text-lg text-gray-700 mb-6">
-        Edit this text in <code>pages/index.js</code> to make it yours.
+      <p className="max-w-prose text-lg text-gray-700 text-center mb-6">
+        Hi! My name is Emma Walker, and I'm a freshman majoring in Computer Science. Please let me into this club 🥺
       </p>
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
-        Click Me!
+      <button className="px-6 py-3 bg-red-500 text-white rounded-lg shadow hover:bg-orange-400 transition">
+        °❀⋆.ೃ࿔*:･
       </button>
-    </main>
+      {/* <img src="/next.svg" alt="Next.js Logo" className="h-16 mt-6" />    */}
+      <img src="upp.png" alt="" className="h-20 mt-6=" />
+      </main>
   );
 }
